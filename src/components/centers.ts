@@ -4,6 +4,19 @@ export default [{
     landline: '0111235689',
     add: '11/1 Mayur Vihar New delhi',
     email: 'autorepair&services@gmail.com',
+    servicesOffered: [{
+        name: 'Washing',
+        price: 250
+    }, {
+        name: 'Repairing',
+        price: 2500
+    }, {
+        name: 'Customization of vehicle',
+        price: 15000
+    }, {
+        name: 'Servicing',
+        price: 5000
+    }],
     employees: [{
         name: 'Avinash Kumar',
         add: '907, plot 2, sector 11 Noida',
@@ -74,12 +87,26 @@ export default [{
         email: 'Jayeshkanitkar@gmail.com',
         salary: '19000',
         supervisorEmail: 'avinashtest1@gmail.com',
-    }]
+    }],
+    servicesOffered: [{
+        name: 'Washing',
+        price: 250
+    }, {
+        name: 'Repairing',
+        price: 2500
+    }, {
+        name: 'Customization of vehicle',
+        price: 15000
+    }, {
+        name: 'Servicing',
+        price: 5000
+    }],
 }, {
     name: 'AutoRepair&Services',
     mobile: '9867123455',
     landline: '0221235689',
     add: 'No 8, Akash ganga Building, Panvel, Mumbai',
     email: 'autorepair&services@gmail.com',
-    employees: []
+    employees: [],
+    servicesOffered: [],
 }]
