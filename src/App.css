@@ -40,3 +40,12 @@
 .boldText {
   font-weight: bold;
 }
+
+img {
+  border-radius: 50%;
+}
+
+.headerBanner {
+  display: flex;
+  align-items: center;
+}
