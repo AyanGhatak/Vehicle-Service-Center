@@ -14,7 +14,7 @@ function App() {
       >
         <Link to="/invoices">Home</Link> |{" "}
         <Link to="/newappo">Schedule a new Appointment</Link> |{" "}
-        <Link to="/lisappo">My Appointments</Link>
+        <Link to="/listBranches">Service Centers</Link>
       </nav>
       <Outlet />
     </Box>

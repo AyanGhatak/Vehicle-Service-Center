@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NewAppointment from './routes/newAppointment';
 import Invoices from './routes/invoices';
 import Invoice from './routes/invoice';
+import ListBranches from './routes/listBranches';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -16,6 +17,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="newappo" element={<NewAppointment />} />
+        <Route path="listBranches" element={<ListBranches />} />
         <Route path="invoices" element={<Invoices />}>
           <Route
             index
