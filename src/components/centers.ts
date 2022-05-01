@@ -17,6 +17,35 @@ export default [{
         name: 'Servicing',
         price: 5000
     }],
+    services: [{
+        customerName: 'Sanjay Mahur',
+        date: '2020-01-30',
+        vehicleType: 'sedan',
+        vehincleBrand: 'Toyota',
+        vehicleNumber: 'MRT1987122',
+    }, {
+        customerName: 'Sanjay Mahur',
+        date: '2020-01-30',
+        vehicleType: 'hatchback',
+        vehincleBrand: 'Maruti',
+        vehicleNumber: 'MRT1201020'
+    }],
+    inventories: [{
+        name: 'Tyre',
+        desc: 'Car Tyre',
+        status: 'Available',
+        quantity: 1,
+    }, {
+        name: 'Bumper',
+        desc: 'Car Bumper',
+        status: 'Available',
+        quantity: 1,
+    }, {
+        name: 'Tail Light',
+        desc: 'Car Tail Light',
+        status: 'Not Available',
+        quantity: 0,
+    }],
     employees: [{
         name: 'Avinash Kumar',
         add: '907, plot 2, sector 11 Noida',
@@ -60,6 +89,8 @@ export default [{
     landline: '0801235689',
     add: '2nd Main BTM Layout, Bangalore',
     email: 'autorepair&services@gmail.com',
+    inventories: [],
+    services: [],
     employees: [{
         name: 'Avinash VM',
         add: '907, plot 3, sector 11 Noida',
@@ -109,4 +140,6 @@ export default [{
     email: 'autorepair&services@gmail.com',
     employees: [],
     servicesOffered: [],
+    inventories: [],
+    services: [],
 }]
