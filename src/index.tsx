@@ -8,6 +8,7 @@ import NewAppointment from './routes/newAppointment';
 import Invoices from './routes/invoices';
 import Invoice from './routes/invoice';
 import ListBranches from './routes/listBranches';
+import User from './routes/User';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -19,6 +20,7 @@ root.render(
       <Route path="/" element={<App />}>
         <Route path="newappo" element={<NewAppointment />} />
         <Route path="listBranches" element={<ListBranches />} />
+        <Route path="home" element={<User />} />
         <Route path="invoices" element={<Invoices />}>
           <Route
             index

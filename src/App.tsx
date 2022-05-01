@@ -17,7 +17,7 @@ function App() {
           paddingBottom: "1rem",
         }}
       >
-        <Link to="/invoices">Home</Link> |{" "}
+        <Link to="/home">Home</Link> |{" "}
         <Link to="/newappo">Schedule a new Appointment</Link> |{" "}
         <Link to="/listBranches">Service Centers</Link>
       </nav>
